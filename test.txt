@@ -1,0 +1,225 @@
+a8c30671-1257-4689-8cea-46eb52e14a8e => ca771e96-6248-45fa-bbe0-800ef60268f4
+books => billy_summers_wikipedia
+bdf92fcb-8139-42bd-a107-9df5d56b511c => ca771e96-6248-45fa-bbe0-800ef60268f4
+avirat => billy_summers_wikipedia
+a3216f32-a16b-459a-bdaf-0d9a44100b3f => 6ad126dc-6193-4b4d-9f97-eefe7b1efa62
+trent_university => course_registration
+b1aa4cc3-0e46-4c5e-9deb-efd66617a479 => 8cf267ad-2ded-4519-845c-3cf50c07666e
+todos => Gujarati Books
+b1aa4cc3-0e46-4c5e-9deb-efd66617a479 => ace8b615-6ee0-4bf3-8f5c-dbe12cd96601
+todos => Movies
+5d1c483d-4850-44f3-b149-cb8a2a0c3087 => ca771e96-6248-45fa-bbe0-800ef60268f4
+Books => billy_summers_wikipedia
+5d1c483d-4850-44f3-b149-cb8a2a0c3087 => ca771e96-6248-45fa-bbe0-800ef60268f4
+Books => billy_summers_wikipedia
+b1aa4cc3-0e46-4c5e-9deb-efd66617a479 => 5d1c483d-4850-44f3-b149-cb8a2a0c3087
+todos => Books
+af5e9735-beaf-42d4-8aba-8de351ad97a6 => bdf92fcb-8139-42bd-a107-9df5d56b511c
+ideas => avirat
+898a1824-9a10-4e5d-87cd-e0120d57afd7 => 02ac722d-ea6d-4729-97a8-83626b63570e
+notes => ideas
+898a1824-9a10-4e5d-87cd-e0120d57afd7 => eda5a578-092b-426a-b1f5-f02f3c650642
+notes => quotes
+898a1824-9a10-4e5d-87cd-e0120d57afd7 => 4bef1807-2a1b-44ab-8a5c-7ac8ba5ee133
+notes => finished
+898a1824-9a10-4e5d-87cd-e0120d57afd7 => b1aa4cc3-0e46-4c5e-9deb-efd66617a479
+notes => todos
+85bc4607-8ae2-47a1-961c-1aa7b1b7acd0 => b6d94a2e-e60d-4ee5-883a-4eb86ee73b3e
+stories => hire_your_prey
+85bc4607-8ae2-47a1-961c-1aa7b1b7acd0 => 34b0af23-9d91-486f-b870-25bb85714e46
+stories => mystery_in_the_mist
+02ac722d-ea6d-4729-97a8-83626b63570e => 85bc4607-8ae2-47a1-961c-1aa7b1b7acd0
+ideas => stories
+02ac722d-ea6d-4729-97a8-83626b63570e => 912ffccd-de2a-4ca5-ab4a-0c4361c4ee8d
+ideas => avirat_city_of_luxary
+======
+ID    :     a8c30671-1257-4689-8cea-46eb52e14a8e
+LABEL :     books
+PATH  :     /home/dhaval/Dev/Write/brain/20210728005004-books.org
+LEVEL :     0
+======
+ID    :     bdf92fcb-8139-42bd-a107-9df5d56b511c
+LABEL :     avirat
+PATH  :     /home/dhaval/Dev/Write/brain/20210728000213-avirat.org
+LEVEL :     0
+======
+ID    :     a3216f32-a16b-459a-bdaf-0d9a44100b3f
+LABEL :     trent_university
+PATH  :     /home/dhaval/Dev/Write/brain/20210801201222-trent_university.org
+LEVEL :     0
+======
+ID    :     eda5a578-092b-426a-b1f5-f02f3c650642
+LABEL :     quotes
+PATH  :     /home/dhaval/Dev/Write/brain/20210801143710-quotes.org
+LEVEL :     0
+======
+ID    :     ca771e96-6248-45fa-bbe0-800ef60268f4
+LABEL :     billy_summers_wikipedia
+PATH  :     /home/dhaval/Dev/Write/brain/billy_summers_wikipedia.org
+LEVEL :     0
+======
+ID    :     6ad126dc-6193-4b4d-9f97-eefe7b1efa62
+LABEL :     course_registration
+PATH  :     /home/dhaval/Dev/Write/brain/20210801190531-course_registration.org
+LEVEL :     0
+======
+ID    :     b1aa4cc3-0e46-4c5e-9deb-efd66617a479
+LABEL :     todos
+PATH  :     /home/dhaval/Dev/Write/brain/20210801144045-todos.org
+LEVEL :     0
+======
+ID    :     8cf267ad-2ded-4519-845c-3cf50c07666e
+LABEL :     Gujarati Books
+PATH  :     /home/dhaval/Dev/Write/brain/20210801144045-todos.org
+LEVEL :     1
+======
+ID    :     ace8b615-6ee0-4bf3-8f5c-dbe12cd96601
+LABEL :     Movies
+PATH  :     /home/dhaval/Dev/Write/brain/20210801144045-todos.org
+LEVEL :     1
+======
+ID    :     5d1c483d-4850-44f3-b149-cb8a2a0c3087
+LABEL :     Books
+PATH  :     /home/dhaval/Dev/Write/brain/20210801144045-todos.org
+LEVEL :     1
+======
+ID    :     4bef1807-2a1b-44ab-8a5c-7ac8ba5ee133
+LABEL :     finished
+PATH  :     /home/dhaval/Dev/Write/brain/20210801143943-finished.org
+LEVEL :     0
+======
+ID    :     34b0af23-9d91-486f-b870-25bb85714e46
+LABEL :     mystery_in_the_mist
+PATH  :     /home/dhaval/Dev/Write/brain/20210801143111-mystery_in_the_mist.org
+LEVEL :     0
+======
+ID    :     af5e9735-beaf-42d4-8aba-8de351ad97a6
+LABEL :     ideas
+PATH  :     /home/dhaval/Dev/Write/brain/20210728002228-ideas.org
+LEVEL :     0
+======
+ID    :     b6d94a2e-e60d-4ee5-883a-4eb86ee73b3e
+LABEL :     hire_your_prey
+PATH  :     /home/dhaval/Dev/Write/brain/20210801143545-hire_your_prey.org
+LEVEL :     0
+======
+ID    :     898a1824-9a10-4e5d-87cd-e0120d57afd7
+LABEL :     notes
+PATH  :     /home/dhaval/Dev/Write/brain/20210801142759-notes.org
+LEVEL :     0
+======
+ID    :     912ffccd-de2a-4ca5-ab4a-0c4361c4ee8d
+LABEL :     avirat_city_of_luxary
+PATH  :     /home/dhaval/Dev/Write/brain/20210801143003-avirat_city_of_luxary.org
+LEVEL :     0
+======
+ID    :     85bc4607-8ae2-47a1-961c-1aa7b1b7acd0
+LABEL :     stories
+PATH  :     /home/dhaval/Dev/Write/brain/20210801143034-stories.org
+LEVEL :     0
+======
+ID    :     02ac722d-ea6d-4729-97a8-83626b63570e
+LABEL :     ideas
+PATH  :     /home/dhaval/Dev/Write/brain/20210801142906-ideas.org
+LEVEL :     0
+======================= Analysis =====================
+
+=== Nodes ===
+
+books
+avirat
+trent_university
+quotes
+billy_summers_wikipedia
+course_registration
+todos
+Gujarati Books
+Movies
+Books
+finished
+mystery_in_the_mist
+ideas
+hire_your_prey
+notes
+avirat_city_of_luxary
+stories
+ideas
+
+=== Start ===
+
+books
+avirat
+trent_university
+todos
+Books
+ideas
+notes
+stories
+ideas
+
+=== End ===
+
+billy_summers_wikipedia
+course_registration
+Gujarati Books
+Movies
+Books
+avirat
+ideas
+quotes
+finished
+todos
+hire_your_prey
+mystery_in_the_mist
+stories
+avirat_city_of_luxary
+
+=== Root ===
+
+books
+trent_university
+ideas
+notes
+
+=== Leaf ===
+
+billy_summers_wikipedia
+course_registration
+Gujarati Books
+Movies
+quotes
+finished
+hire_your_prey
+mystery_in_the_mist
+avirat_city_of_luxary
+
+=== Group ===
+
+books
+avirat
+trent_university
+todos
+Books
+ideas
+notes
+stories
+ideas
+billy_summers_wikipedia
+course_registration
+Gujarati Books
+Movies
+quotes
+finished
+hire_your_prey
+mystery_in_the_mist
+avirat_city_of_luxary
+
+=== Orphan ===
+
+
+=== Parent ===
+
+books
+trent_university
+ideas
+notes

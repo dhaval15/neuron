@@ -1,0 +1,347 @@
+{
+  "tags": [],
+  "nodes": [
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210728005004-books",
+        "ID": "a8c30671-1257-4689-8cea-46eb52e14a8e",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210728005004-books.org",
+        "PRIORITY": "B"
+      },
+      "level": 0,
+      "title": "books",
+      "file": "/home/dhaval/Dev/Write/brain/20210728005004-books.org",
+      "id": "a8c30671-1257-4689-8cea-46eb52e14a8e"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210728000213-avirat",
+        "ID": "bdf92fcb-8139-42bd-a107-9df5d56b511c",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210728000213-avirat.org",
+        "PRIORITY": "B"
+      },
+      "level": 0,
+      "title": "avirat",
+      "file": "/home/dhaval/Dev/Write/brain/20210728000213-avirat.org",
+      "id": "bdf92fcb-8139-42bd-a107-9df5d56b511c"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210801201222-trent_university",
+        "ID": "a3216f32-a16b-459a-bdaf-0d9a44100b3f",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210801201222-trent_university.org",
+        "PRIORITY": "B"
+      },
+      "level": 0,
+      "title": "trent_university",
+      "file": "/home/dhaval/Dev/Write/brain/20210801201222-trent_university.org",
+      "id": "a3216f32-a16b-459a-bdaf-0d9a44100b3f"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210801143710-quotes",
+        "ID": "eda5a578-092b-426a-b1f5-f02f3c650642",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210801143710-quotes.org",
+        "PRIORITY": "B"
+      },
+      "level": 0,
+      "title": "quotes",
+      "file": "/home/dhaval/Dev/Write/brain/20210801143710-quotes.org",
+      "id": "eda5a578-092b-426a-b1f5-f02f3c650642"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "billy_summers_wikipedia",
+        "ID": "ca771e96-6248-45fa-bbe0-800ef60268f4",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/billy_summers_wikipedia.org",
+        "PRIORITY": "B"
+      },
+      "level": 0,
+      "title": "billy_summers_wikipedia",
+      "file": "/home/dhaval/Dev/Write/brain/billy_summers_wikipedia.org",
+      "id": "ca771e96-6248-45fa-bbe0-800ef60268f4"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210801190531-course_registration",
+        "ID": "6ad126dc-6193-4b4d-9f97-eefe7b1efa62",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210801190531-course_registration.org",
+        "PRIORITY": "B"
+      },
+      "level": 0,
+      "title": "course_registration",
+      "file": "/home/dhaval/Dev/Write/brain/20210801190531-course_registration.org",
+      "id": "6ad126dc-6193-4b4d-9f97-eefe7b1efa62"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210801144045-todos",
+        "ID": "b1aa4cc3-0e46-4c5e-9deb-efd66617a479",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210801144045-todos.org",
+        "PRIORITY": "B"
+      },
+      "level": 0,
+      "title": "todos",
+      "file": "/home/dhaval/Dev/Write/brain/20210801144045-todos.org",
+      "id": "b1aa4cc3-0e46-4c5e-9deb-efd66617a479"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210801144045-todos",
+        "ID": "8cf267ad-2ded-4519-845c-3cf50c07666e",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210801144045-todos.org",
+        "PRIORITY": "B",
+        "ITEM": "Gujarati Books"
+      },
+      "level": 1,
+      "title": "Gujarati Books",
+      "file": "/home/dhaval/Dev/Write/brain/20210801144045-todos.org",
+      "id": "8cf267ad-2ded-4519-845c-3cf50c07666e"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210801144045-todos",
+        "ID": "ace8b615-6ee0-4bf3-8f5c-dbe12cd96601",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210801144045-todos.org",
+        "PRIORITY": "B",
+        "ITEM": "Movies"
+      },
+      "level": 1,
+      "title": "Movies",
+      "file": "/home/dhaval/Dev/Write/brain/20210801144045-todos.org",
+      "id": "ace8b615-6ee0-4bf3-8f5c-dbe12cd96601"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210801144045-todos",
+        "ID": "5d1c483d-4850-44f3-b149-cb8a2a0c3087",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210801144045-todos.org",
+        "PRIORITY": "B",
+        "ITEM": "Books"
+      },
+      "level": 1,
+      "title": "Books",
+      "file": "/home/dhaval/Dev/Write/brain/20210801144045-todos.org",
+      "id": "5d1c483d-4850-44f3-b149-cb8a2a0c3087"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210801143943-finished",
+        "ID": "4bef1807-2a1b-44ab-8a5c-7ac8ba5ee133",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210801143943-finished.org",
+        "PRIORITY": "B"
+      },
+      "level": 0,
+      "title": "finished",
+      "file": "/home/dhaval/Dev/Write/brain/20210801143943-finished.org",
+      "id": "4bef1807-2a1b-44ab-8a5c-7ac8ba5ee133"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210801143111-mystery_in_the_mist",
+        "ID": "34b0af23-9d91-486f-b870-25bb85714e46",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210801143111-mystery_in_the_mist.org",
+        "PRIORITY": "B"
+      },
+      "level": 0,
+      "title": "mystery_in_the_mist",
+      "file": "/home/dhaval/Dev/Write/brain/20210801143111-mystery_in_the_mist.org",
+      "id": "34b0af23-9d91-486f-b870-25bb85714e46"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210728002228-ideas",
+        "ID": "af5e9735-beaf-42d4-8aba-8de351ad97a6",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210728002228-ideas.org",
+        "PRIORITY": "B"
+      },
+      "level": 0,
+      "title": "ideas",
+      "file": "/home/dhaval/Dev/Write/brain/20210728002228-ideas.org",
+      "id": "af5e9735-beaf-42d4-8aba-8de351ad97a6"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210801143545-hire_your_prey",
+        "ID": "b6d94a2e-e60d-4ee5-883a-4eb86ee73b3e",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210801143545-hire_your_prey.org",
+        "PRIORITY": "B"
+      },
+      "level": 0,
+      "title": "hire_your_prey",
+      "file": "/home/dhaval/Dev/Write/brain/20210801143545-hire_your_prey.org",
+      "id": "b6d94a2e-e60d-4ee5-883a-4eb86ee73b3e"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210801142759-notes",
+        "ID": "898a1824-9a10-4e5d-87cd-e0120d57afd7",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210801142759-notes.org",
+        "PRIORITY": "B"
+      },
+      "level": 0,
+      "title": "notes",
+      "file": "/home/dhaval/Dev/Write/brain/20210801142759-notes.org",
+      "id": "898a1824-9a10-4e5d-87cd-e0120d57afd7"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210801143003-avirat_city_of_luxary",
+        "ID": "912ffccd-de2a-4ca5-ab4a-0c4361c4ee8d",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210801143003-avirat_city_of_luxary.org",
+        "PRIORITY": "B"
+      },
+      "level": 0,
+      "title": "avirat_city_of_luxary",
+      "file": "/home/dhaval/Dev/Write/brain/20210801143003-avirat_city_of_luxary.org",
+      "id": "912ffccd-de2a-4ca5-ab4a-0c4361c4ee8d"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210801143034-stories",
+        "ID": "85bc4607-8ae2-47a1-961c-1aa7b1b7acd0",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210801143034-stories.org",
+        "PRIORITY": "B"
+      },
+      "level": 0,
+      "title": "stories",
+      "file": "/home/dhaval/Dev/Write/brain/20210801143034-stories.org",
+      "id": "85bc4607-8ae2-47a1-961c-1aa7b1b7acd0"
+    },
+    {
+      "tags": [],
+      "properties": {
+        "CATEGORY": "20210801142906-ideas",
+        "ID": "02ac722d-ea6d-4729-97a8-83626b63570e",
+        "BLOCKED": "",
+        "FILE": "/home/dhaval/Dev/Write/brain/20210801142906-ideas.org",
+        "PRIORITY": "B"
+      },
+      "level": 0,
+      "title": "ideas",
+      "file": "/home/dhaval/Dev/Write/brain/20210801142906-ideas.org",
+      "id": "02ac722d-ea6d-4729-97a8-83626b63570e"
+    }
+  ],
+  "links": [
+    {
+      "type": "id",
+      "source": "a8c30671-1257-4689-8cea-46eb52e14a8e",
+      "target": "ca771e96-6248-45fa-bbe0-800ef60268f4"
+    },
+    {
+      "type": "id",
+      "source": "bdf92fcb-8139-42bd-a107-9df5d56b511c",
+      "target": "ca771e96-6248-45fa-bbe0-800ef60268f4"
+    },
+    {
+      "type": "id",
+      "source": "a3216f32-a16b-459a-bdaf-0d9a44100b3f",
+      "target": "6ad126dc-6193-4b4d-9f97-eefe7b1efa62"
+    },
+    {
+      "type": "id",
+      "source": "b1aa4cc3-0e46-4c5e-9deb-efd66617a479",
+      "target": "8cf267ad-2ded-4519-845c-3cf50c07666e"
+    },
+    {
+      "type": "id",
+      "source": "b1aa4cc3-0e46-4c5e-9deb-efd66617a479",
+      "target": "ace8b615-6ee0-4bf3-8f5c-dbe12cd96601"
+    },
+    {
+      "type": "id",
+      "source": "5d1c483d-4850-44f3-b149-cb8a2a0c3087",
+      "target": "ca771e96-6248-45fa-bbe0-800ef60268f4"
+    },
+    {
+      "type": "id",
+      "source": "5d1c483d-4850-44f3-b149-cb8a2a0c3087",
+      "target": "ca771e96-6248-45fa-bbe0-800ef60268f4"
+    },
+    {
+      "type": "id",
+      "source": "b1aa4cc3-0e46-4c5e-9deb-efd66617a479",
+      "target": "5d1c483d-4850-44f3-b149-cb8a2a0c3087"
+    },
+    {
+      "type": "id",
+      "source": "af5e9735-beaf-42d4-8aba-8de351ad97a6",
+      "target": "bdf92fcb-8139-42bd-a107-9df5d56b511c"
+    },
+    {
+      "type": "id",
+      "source": "898a1824-9a10-4e5d-87cd-e0120d57afd7",
+      "target": "02ac722d-ea6d-4729-97a8-83626b63570e"
+    },
+    {
+      "type": "id",
+      "source": "898a1824-9a10-4e5d-87cd-e0120d57afd7",
+      "target": "eda5a578-092b-426a-b1f5-f02f3c650642"
+    },
+    {
+      "type": "id",
+      "source": "898a1824-9a10-4e5d-87cd-e0120d57afd7",
+      "target": "4bef1807-2a1b-44ab-8a5c-7ac8ba5ee133"
+    },
+    {
+      "type": "id",
+      "source": "898a1824-9a10-4e5d-87cd-e0120d57afd7",
+      "target": "b1aa4cc3-0e46-4c5e-9deb-efd66617a479"
+    },
+    {
+      "type": "id",
+      "source": "85bc4607-8ae2-47a1-961c-1aa7b1b7acd0",
+      "target": "b6d94a2e-e60d-4ee5-883a-4eb86ee73b3e"
+    },
+    {
+      "type": "id",
+      "source": "85bc4607-8ae2-47a1-961c-1aa7b1b7acd0",
+      "target": "34b0af23-9d91-486f-b870-25bb85714e46"
+    },
+    {
+      "type": "id",
+      "source": "02ac722d-ea6d-4729-97a8-83626b63570e",
+      "target": "85bc4607-8ae2-47a1-961c-1aa7b1b7acd0"
+    },
+    {
+      "type": "id",
+      "source": "02ac722d-ea6d-4729-97a8-83626b63570e",
+      "target": "912ffccd-de2a-4ca5-ab4a-0c4361c4ee8d"
+    }
+  ]
+}
