@@ -14,8 +14,10 @@ class NodeWidget extends StatelessWidget {
         child: Text(
           node.title,
           style: TextStyle(
-            color: Colors.white.withOpacity(0.5),
-            fontWeight: FontWeight.w400,
+            color: Colors.white.withOpacity(0.1),
+            fontWeight: FontWeight.w300,
+            fontSize: 15,
+            letterSpacing: 1,
           ),
         ),
       ),

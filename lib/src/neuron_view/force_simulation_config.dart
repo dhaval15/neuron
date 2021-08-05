@@ -15,25 +15,27 @@ class ForceSimulationConfig {
     ManyBody? manyBody,
   }) : this.manyBody = manyBody ?? ManyBody(strength: -400);
 
-  ForceSimulation<T> toSimulation<T extends Node>(
-      Size size, List<Edge<T>> edges, List<T> nodes) {
+  ForceSimulation<T> toSimulation<T extends Node>(Size size) {
     return ForceSimulation<T>(
       phyllotaxisX: size.width / 2,
       phyllotaxisY: size.height / 2,
       phyllotaxisRadius: phyllotaxisRadius,
     )
-      ..nodes = nodes
       ..setForce('collide', Collide(radius: collideRadius))
       // ..setForce('radial', Radial(radius: 400))
       ..setForce('manyBody', manyBody)
       ..setForce(
           'center', Center(size.width / 2, size.height / 2, strength: 0.1))
-      ..setForce(
-        'edges',
-        Edges(edges: edges, distance: distance),
-      )
       ..setForce('x', XPositioning(x: size.width / 2))
       ..setForce('y', YPositioning(y: size.height / 2))
       ..alpha = 1;
+  }
+}
+
+extension ForceSimulationExtension on ForceSimulation {
+  void edgesAndNodes<T extends Node>(
+      List<Edge<T>> edges, List<T> nodes, double distance) {
+    this.nodes = nodes;
+    setForce('edges', Edges(edges: edges, distance: distance));
   }
 }

@@ -35,7 +35,7 @@ class NeuronApp extends StatelessWidget {
                       strokeWidth: 1,
                       size: 30,
                       linkColor: Colors.grey.withOpacity(0.5),
-                      backgroundColor: Color(0xFF222222),
+                      backgroundColor: Color(0xFF161616),
                     ),
                     child: MaterialApp(
                       title: 'Neuron',
