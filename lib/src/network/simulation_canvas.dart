@@ -7,17 +7,26 @@ import 'package:flutter/widgets.dart';
 
 class SimulationCanvas extends MultiChildRenderObjectWidget {
   final Color linkColor;
+  final Color highlightColor;
+  final double highlightWidth;
   final double linkStrokeWidth;
   SimulationCanvas({
     this.linkColor = Colors.grey,
     this.linkStrokeWidth = 0.75,
+    this.highlightColor = Colors.grey,
+    this.highlightWidth = 2,
     required List<Widget> children,
     Key? key,
   }) : super(children: children, key: key);
 
   @override
   RenderObject createRenderObject(BuildContext context) {
-    return RenderSimulationCanvas(linkColor, linkStrokeWidth);
+    return RenderSimulationCanvas(
+      linkColor: linkColor,
+      linkStrokeWidth: linkStrokeWidth,
+      highlightColor: highlightColor,
+      highlightWidth: highlightWidth,
+    );
   }
 }
 
@@ -39,8 +48,15 @@ class RenderSimulationCanvas extends RenderBox
         RenderBoxContainerDefaultsMixin<RenderBox, SimulationCanvasParentData> {
   final Color linkColor;
   final double linkStrokeWidth;
+  final Color highlightColor;
+  final double highlightWidth;
 
-  RenderSimulationCanvas(this.linkColor, this.linkStrokeWidth);
+  RenderSimulationCanvas({
+    required this.linkColor,
+    required this.linkStrokeWidth,
+    required this.highlightColor,
+    required this.highlightWidth,
+  });
   @override
   void setupParentData(covariant RenderObject child) {
     if (child.parentData is! SimulationCanvasParentData) {
@@ -66,22 +82,21 @@ class RenderSimulationCanvas extends RenderBox
         final start = pd.offset + offset + edgeOffset;
         final end = Offset(edge.target.x, edge.target.y) + offset + edgeOffset;
         final paint = Paint()
-          ..color = linkColor
-          ..strokeWidth = linkStrokeWidth;
+          ..color = edge.highlight ? highlightColor : linkColor
+          ..strokeWidth = edge.highlight ? highlightWidth : linkStrokeWidth;
         canvas.drawLine(start, end, paint);
         final arrow = Path();
         final mid = (end + start) / 2;
         final angle = atan2(end.dy - start.dy, end.dx - start.dx);
+        final factor = sqrt(edge.highlight ? highlightWidth : linkStrokeWidth);
         arrow.addPolygon([
-          Offset(0, -2),
-          Offset(0, 2),
-          Offset(7, 0),
+          Offset(0, -3 * factor),
+          Offset(0, 3 * factor),
+          Offset(9 * factor, 0),
         ], true);
         canvas.drawPath(
             arrow.transform(Matrix4.rotationZ(angle).storage).shift(mid),
-            Paint()
-              ..color = linkColor
-              ..style = PaintingStyle.fill);
+            paint..style = PaintingStyle.fill);
       }
       child = pd.nextSibling;
     }

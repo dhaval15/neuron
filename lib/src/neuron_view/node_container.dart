@@ -1,5 +1,6 @@
 import 'package:d3_force_flutter/d3_force_flutter.dart' as f;
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:org_extras/org_extras.dart';
 import '../network/network.dart';
 
@@ -15,6 +16,7 @@ class NodeContainer extends StatelessWidget {
   final List<f.Edge> edges;
   final f.ForceSimulation simulation;
   final void Function(Node node) onFocusNode;
+  final void Function(Node node) onHighlightNode;
 
   const NodeContainer({
     required this.level,
@@ -24,6 +26,7 @@ class NodeContainer extends StatelessWidget {
     required this.simulation,
     required this.weightLevel,
     required this.onFocusNode,
+    required this.onHighlightNode,
   });
   @override
   Widget build(BuildContext context) {
@@ -33,29 +36,28 @@ class NodeContainer extends StatelessWidget {
       constraints: BoxConstraints.tight(Size(40, 40)),
       node: node,
       edges: edges,
-      child: NodeHitTester(
-        node,
-        onTap: () {
-          print(node.title);
-        },
-        onDoubleTap: () {
-          onFocusNode(node);
-        },
-        onLongTap: () {
-          print('Long');
-        },
-        onDragUpdate: (update) {
-          node
-            ..fx = update.globalPosition.dx
-            ..fy = update.globalPosition.dy;
-          simulation..alpha = 0.3;
-        },
-        onDragEnd: (_) {
-          node
-            ..fx = null
-            ..fy = null;
-        },
-        child: Center(
+      child: Center(
+        child: GestureDetector(
+          onTap: () {
+            onHighlightNode(node);
+          },
+          onDoubleTap: () {
+            onFocusNode(node);
+          },
+          onLongPress: () {
+            print('Long');
+          },
+          onPanUpdate: (update) {
+            node
+              ..fx = update.globalPosition.dx
+              ..fy = update.globalPosition.dy;
+            simulation..alpha = 0.3;
+          },
+          onPanEnd: (_) {
+            node
+              ..fx = null
+              ..fy = null;
+          },
           child: Container(
             width: factor,
             height: factor,

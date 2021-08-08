@@ -53,7 +53,7 @@ packages:
   d3_force_flutter:
     dependency: "direct main"
     description:
-      path: "../../../Cloned/d3_force_flutter"
+      path: "packages/d3_force_flutter"
       relative: true
     source: path
     version: "0.0.1"

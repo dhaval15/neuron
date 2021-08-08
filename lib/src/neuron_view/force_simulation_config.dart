@@ -10,10 +10,14 @@ class ForceSimulationConfig {
 
   ForceSimulationConfig({
     this.phyllotaxisRadius = 20,
-    this.collideRadius = 20,
+    this.collideRadius = 40,
     this.distance = 50,
     ManyBody? manyBody,
-  }) : this.manyBody = manyBody ?? ManyBody(strength: -400);
+  }) : this.manyBody = manyBody ??
+            ManyBody(
+              distanceMin2: 40,
+              strength: -50,
+            );
 
   ForceSimulation<T> toSimulation<T extends Node>(Size size) {
     return ForceSimulation<T>(
@@ -22,7 +26,7 @@ class ForceSimulationConfig {
       phyllotaxisRadius: phyllotaxisRadius,
     )
       ..setForce('collide', Collide(radius: collideRadius))
-      // ..setForce('radial', Radial(radius: 400))
+      ..setForce('radial', Radial(radius: 400))
       ..setForce('manyBody', manyBody)
       ..setForce(
           'center', Center(size.width / 2, size.height / 2, strength: 0.1))

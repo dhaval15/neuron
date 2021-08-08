@@ -22,8 +22,10 @@ class _ExploreScreenState extends State<ExploreScreen> {
           builder: (context, snapshot) {
             if (snapshot.hasData) {
               controller = NeuronController(snapshot.data!);
-              return NeuronView(
-                controller: controller,
+              return InteractiveViewer(
+                child: NeuronView(
+                  controller: controller,
+                ),
               );
             }
             return Center(
@@ -35,7 +37,9 @@ class _ExploreScreenState extends State<ExploreScreen> {
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.home),
         onPressed: () {
-          controller.goHome();
+          final node = controller.nodes
+              .where((element) => element.title == 'The Mask I Wore');
+          print(node);
         },
       ),
     );

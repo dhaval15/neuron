@@ -20,6 +20,7 @@ class NeuronTheme {
   final double strokeWidth;
   final double size;
   final Color linkColor;
+  final Color highlightColor;
   final Color backgroundColor;
 
   static NeuronTheme of(BuildContext context) =>
@@ -30,6 +31,7 @@ class NeuronTheme {
     required this.size,
     required this.linkColor,
     required this.backgroundColor,
+    required this.highlightColor,
   });
 
   Color findColor(int level) {

@@ -33,9 +33,7 @@ class _NeuronViewState extends State<NeuronView>
   }
 
   void _runTicker() {
-    for (int i = 0; i < 10; i++) {
-      _controller.simulation.tick();
-    }
+    _controller.simulation.tick(100);
 
     _ticker = this.createTicker((_) {
       setState(() {
@@ -61,6 +59,7 @@ class _NeuronViewState extends State<NeuronView>
         child: SimulationCanvas(
           linkStrokeWidth: NeuronTheme.of(context).strokeWidth,
           linkColor: NeuronTheme.of(context).linkColor,
+          highlightColor: NeuronTheme.of(context).highlightColor,
           children: [
             for (final node in _controller.simulation.nodes)
               buildNodeContainer(node),
@@ -84,6 +83,7 @@ class _NeuronViewState extends State<NeuronView>
       simulation: _controller.simulation,
       weightLevel: _controller.weights[node.id]!,
       onFocusNode: _controller.focusNode,
+      onHighlightNode: _controller.highlightNode,
     );
   }
 }

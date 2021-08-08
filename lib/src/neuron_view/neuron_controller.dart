@@ -1,4 +1,3 @@
-import 'package:flutter/scheduler.dart';
 import 'package:org_extras/org_extras.dart';
 import 'package:d3_force_flutter/d3_force_flutter.dart' as force;
 
@@ -8,6 +7,7 @@ import 'force_simulation_config.dart';
 class NeuronController {
   late final force.ForceSimulation<ExtendedNode> simulation;
   late List<force.Edge<ExtendedNode>> edges;
+  late List<ExtendedNode> nodes;
   late List<int> edgeCounts;
   late Map<String, int> levels;
   late Map<String, int> weights;
@@ -25,14 +25,29 @@ class NeuronController {
     setupNeuron(neuron);
   }
 
+  void highlightNode(Node node) {
+    nodes.forEach((element) {
+      element.highlight = false;
+    });
+    for (final edge in edges) {
+      if (edge.source == node || edge.target == node) {
+        edge.highlight = true;
+        edge.source.highlight = true;
+        edge.target.highlight = true;
+      } else {
+        edge.highlight = false;
+      }
+    }
+  }
+
+  ExtendedNode find(String id) {
+    return nodes.firstWhere((element) => id == element.id);
+  }
+
   void setupNeuron(Neuron neuron) {
     levels = NeuronUtils.calculateLevels(neuron);
     weights = NeuronUtils.calculateWeights(neuron);
-    final nodes = neuron.nodes.map((e) => e.extend()).toList();
-    ExtendedNode find(String id) {
-      return nodes.firstWhere((element) => id == element.id);
-    }
-
+    nodes = neuron.nodes.map((e) => e.extend()).toList();
     edges = neuron.links
         .map((e) => force.Edge<ExtendedNode>(
             source: find(e.start), target: find(e.end)))
